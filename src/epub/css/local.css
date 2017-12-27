@@ -8,3 +8,8 @@ var{
 abbr.name{
 	white-space: nowrap;
 }
+
+[epub|type~="z3998:persona"]{
+	font-weight: normal;
+	font-variant: all-small-caps;
+}
