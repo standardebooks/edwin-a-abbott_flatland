@@ -14,7 +14,7 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-[epub|type~="z3998:dedication"] em{
+[epub|type~="dedication"] em{
 	font-style: normal;
 	font-variant: all-small-caps;
 }
