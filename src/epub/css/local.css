@@ -9,6 +9,11 @@ abbr.name{
 	white-space: nowrap;
 }
 
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
 [epub|type~="z3998:dedication"] em{
 	font-style: normal;
 	font-variant: all-small-caps;
