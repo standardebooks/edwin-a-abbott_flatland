@@ -22,14 +22,16 @@
 		<dc:subject id="subject-1">Fourth dimension</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/201</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A square is pulled out of his reality by a sphere, and shown the meaning of three dimensions.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONGDESCRIPTION
-		]]></meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;&lt;i&gt;Flatland&lt;/i&gt; is uniquely both a social critique and a primer on multi-dimensional geometry. Written in two parts in 1884 by Edwin &lt;abbr class="name"&gt;A.&lt;/abbr&gt; Abbott, an English mathematician and theologian, it tells the story of a square living in Flatland: a two-dimensional realm. After a dream of a restrictive one-dimensional existence and the difficulties this poses, he is visited by a sphere from a three-dimensional space who wishes to enlighten him into the ways of “Upward, yet not Northward.”&lt;/p&gt;
+			&lt;p&gt;Edwin &lt;abbr class="name"&gt;A.&lt;/abbr&gt; Abbott wrote other theological fiction and non-fiction (including several biographies), but he is best remembered for &lt;i&gt;Flatland&lt;/i&gt;. While it was mostly forgotten after publication, it received a revived interest from the 1960s onwards, and has more recently had several sequels and film adaptations. This edition of is based on the second published edition and includes its preface, which in part attempts to address some of the contemporary accusations of misogyny.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/201</dc:source>
+		<meta property="se:production-notes">The *.source.png images in ./images are screenshots from the original source scans. These were processed in Pixelmator to be black and white with 100% contrast, then in some cases adjusted with a new layout to better fit the responsive nautre of ebooks, before being saved to the same directory. Finally, they were automatically traced in Inkscape (with a manually selected brightness cutoff for best results) before being shrunk with SVGO and having titles added, and then transferred to the epub/src/images directory.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Flatland</meta>
