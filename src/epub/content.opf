@@ -25,8 +25,8 @@
 		<dc:description id="description">A square is pulled out of his reality by a sphere, and shown the meaning of three dimensions.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Flatland&lt;/i&gt; is uniquely both a social critique and a primer on multi-dimensional geometry. Written in two parts in 1884 by Edwin &lt;abbr class="name"&gt;A.&lt;/abbr&gt; Abbott, an English mathematician and theologian, it tells the story of a square living in Flatland: a two-dimensional realm. After a dream of a restrictive one-dimensional existence and the difficulties this poses, he is visited by a sphere from a three-dimensional space who wishes to enlighten him into the ways of “Upward, yet not Northward.”&lt;/p&gt;
-			&lt;p&gt;Edwin &lt;abbr class="name"&gt;A.&lt;/abbr&gt; Abbott wrote other theological fiction and non-fiction (including several biographies), but he is best remembered for &lt;i&gt;Flatland&lt;/i&gt;. While it was mostly forgotten after publication, it received a revived interest from the 1960s onwards, and has more recently had several sequels and film adaptations. This edition of is based on the second published edition and includes its preface, which in part attempts to address some of the contemporary accusations of misogyny.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Flatland&lt;/i&gt; is uniquely both a social critique and a primer on multi-dimensional geometry. Written in two parts in 1884 by Edwin A. Abbott, an English mathematician and theologian, it tells the story of a square living in Flatland: a two-dimensional realm. After a dream of a restrictive one-dimensional existence and the difficulties this poses, he is visited by a sphere from a three-dimensional space who wishes to enlighten him into the ways of “Upward, yet not Northward.”&lt;/p&gt;
+			&lt;p&gt;Edwin A. Abbott wrote other theological fiction and non-fiction (including several biographies), but he is best remembered for &lt;i&gt;Flatland&lt;/i&gt;. While it was mostly forgotten after publication, it received a revived interest from the 1960s onwards, and has more recently had several sequels and film adaptations. This edition of is based on the second published edition and includes its preface, which in part attempts to address some of the contemporary accusations of misogyny.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
@@ -59,6 +59,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
