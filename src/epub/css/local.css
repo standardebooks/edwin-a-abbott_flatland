@@ -49,6 +49,10 @@ span[epub|type~="subtitle"]{
 	font-variant: all-small-caps;
 }
 
+[epub|type~="part"] header{
+	text-align: center;
+}
+
 [epub|type~="epigraph"]{
 	hyphens: none;
 	margin: 3em;
