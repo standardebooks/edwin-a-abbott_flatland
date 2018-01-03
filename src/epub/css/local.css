@@ -44,9 +44,9 @@ span[epub|type~="subtitle"]{
 	text-align: center;
 }
 
-[epub|type~="dedication"] em{
-	font-style: normal;
-	font-variant: all-small-caps;
+b{
+	font-weight: normal;
+	font-variant: small-caps;
 }
 
 [epub|type~="part"] header{
