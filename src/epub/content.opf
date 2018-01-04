@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edwin-a-abbott/flatland</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2018-01-04T23:03:45Z</dc:date>
+		<meta property="dcterms:modified">2018-01-04T23:03:45Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -32,8 +32,8 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/201</dc:source>
 		<meta property="se:production-notes">The *.source.png images in ./images are screenshots from the original source scans. These were processed in Pixelmator to be black and white with 100% contrast, then in some cases adjusted with a new layout to better fit the responsive nautre of ebooks, before being saved to the same directory. Finally, they were automatically traced in Inkscape (with a manually selected brightness cutoff for best results) before being shrunk with SVGO and having titles added, and then transferred to the epub/src/images directory.</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">33601</meta>
+		<meta property="se:reading-ease.flesch">51.62</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Flatland</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edwin-a-abbott_flatland</meta>
 		<dc:creator id="author">Edwin A. Abbott</dc:creator>
