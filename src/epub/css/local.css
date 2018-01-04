@@ -25,13 +25,8 @@ figure img{
 	display: block;
 }
 
-#illustration-11{
-	margin-top: 3em;
-}
-
 #illustration-02 img,
-#illustration-09 img,
-#illustration-11 img{
+#illustration-09 img{
 	max-height: 50%;
 }
 
