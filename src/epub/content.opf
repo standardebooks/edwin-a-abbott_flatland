@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edwin-a-abbott/flatland</dc:identifier>
 		<dc:date>2018-01-04T23:03:45Z</dc:date>
-		<meta property="dcterms:modified">2018-03-27T17:58:57Z</meta>
-		<meta property="se:revision-number">7</meta>
+		<meta property="dcterms:modified">2018-03-27T22:30:54Z</meta>
+		<meta property="se:revision-number">8</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -81,15 +81,15 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
-		<item href="images/illustration-01.svg" id="illustration-01.svg" media-type="image/svg+xml"/>
-		<item href="images/illustration-02.svg" id="illustration-02.svg" media-type="image/svg+xml"/>
-		<item href="images/illustration-03.svg" id="illustration-03.svg" media-type="image/svg+xml"/>
-		<item href="images/illustration-04.svg" id="illustration-04.svg" media-type="image/svg+xml"/>
-		<item href="images/illustration-05.svg" id="illustration-05.svg" media-type="image/svg+xml"/>
-		<item href="images/illustration-06.svg" id="illustration-06.svg" media-type="image/svg+xml"/>
-		<item href="images/illustration-07.svg" id="illustration-07.svg" media-type="image/svg+xml"/>
-		<item href="images/illustration-08.svg" id="illustration-08.svg" media-type="image/svg+xml"/>
-		<item href="images/illustration-09.svg" id="illustration-09.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-1.svg" id="illustration-1.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-2.svg" id="illustration-2.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-3.svg" id="illustration-3.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-4.svg" id="illustration-4.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-5.svg" id="illustration-5.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-6.svg" id="illustration-6.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-7.svg" id="illustration-7.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-8.svg" id="illustration-8.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-9.svg" id="illustration-9.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-10.svg" id="illustration-10.svg" media-type="image/svg+xml"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
