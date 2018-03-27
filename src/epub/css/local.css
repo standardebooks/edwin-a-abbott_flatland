@@ -15,14 +15,14 @@ figure{
 	text-align: center;
 }
 
-figure + p{
-	text-indent: 0;
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
 }
 
-figure img{
-	max-width: 100%;
-	margin: auto;
-	display: block;
+figure + p{
+	text-indent: 0;
 }
 
 #illustration-02 img,
