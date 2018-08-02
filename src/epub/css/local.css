@@ -6,10 +6,6 @@ var{
 	font-variant: all-small-caps;
 }
 
-abbr.name{
-	white-space: nowrap;
-}
-
 figure{
 	margin: 1em auto;
 	text-align: center;
@@ -39,25 +35,29 @@ span[epub|type~="subtitle"]{
 	text-align: center;
 }
 
-b{
-	font-weight: normal;
-	font-variant: small-caps;
-}
-
-[epub|type~="part"] header{
-	text-align: center;
-}
-
-[epub|type~="epigraph"]{
-	hyphens: none;
-	margin: 3em;
-	margin-top: 0;
-	text-align: left;
-	text-indent: 0;
-	display: inline-block;
-}
-
 [epub|type~="z3998:persona"]{
 	font-weight: normal;
 	font-variant: all-small-caps;
 }
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+}
+/* End all epigraphs */
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
