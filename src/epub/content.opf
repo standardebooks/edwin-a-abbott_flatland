@@ -42,7 +42,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/201</dc:source>
 		<dc:source>https://archive.org/details/flatlandromanceo1884abbo</dc:source>
 		<meta property="se:production-notes">The *.source.png images in ./images are screenshots from the original source scans. These were processed in Pixelmator to be black and white with 100% contrast, then in some cases adjusted with a new layout to better fit the responsive nautre of ebooks, before being saved to the same directory. Finally, they were automatically traced in Inkscape (with a manually selected brightness cutoff for best results) before being shrunk with SVGO and having titles added, and then transferred to the epub/src/images directory.</meta>
-		<meta property="se:word-count">33597</meta>
+		<meta property="se:word-count">33608</meta>
 		<meta property="se:reading-ease.flesch">51.62</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Flatland</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edwin-a-abbott_flatland</meta>
