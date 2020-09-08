@@ -34,12 +34,6 @@ figure + p{
 	max-height: 50%;
 }
 
-section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
-	display: block;
-	font-size: .75em;
-	font-weight: normal;
-}
-
 [epub|type~="dedication"]{
 	text-align: center;
 }
