@@ -36,8 +36,8 @@ figure img{
 }
 
 [epub|type~="z3998:persona"]{
-	font-weight: normal;
 	font-variant: all-small-caps;
+	font-weight: normal;
 }
 
 /* All epigraphs */
