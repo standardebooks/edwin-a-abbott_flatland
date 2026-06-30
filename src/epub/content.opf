@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/edwin-a-abbott/flatland</dc:identifier>
 		<dc:date>2018-01-04T23:03:45Z</dc:date>
 		<meta property="dcterms:modified">2018-01-04T23:03:45Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -40,7 +41,7 @@
 		<dc:subject id="subject-1">Fourth dimension</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85051099</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A square is pulled out of his reality by a sphere, and shown the meaning of three dimensions.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Flatland&lt;/i&gt; is uniquely both a social critique and a primer on multi-dimensional geometry. Written in two parts in 1884 by &lt;a href="https://standardebooks.org/ebooks/edwin-a-abbott"&gt;Edwin &lt;abbr&gt;A.&lt;/abbr&gt; Abbott&lt;/a&gt;, an English mathematician and theologian, it tells the story of a square living in Flatland: a two-dimensional realm. After a dream of a restrictive one-dimensional existence and the difficulties this poses, he is visited by a sphere from a three-dimensional space who wishes to enlighten him into the ways of “Upward, yet not Northward.”&lt;/p&gt;
@@ -49,16 +50,17 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/201</dc:source>
 		<dc:source>https://archive.org/details/flatlandromanceo1884abbo</dc:source>
-		<meta property="se:production-notes">The *.source.png images in ./images are screenshots from the original source scans. These were processed in Pixelmator to be black and white with 100% contrast, then in some cases adjusted with a new layout to better fit the responsive nautre of ebooks, before being saved to the same directory. Finally, they were automatically traced in Inkscape (with a manually selected brightness cutoff for best results) before being shrunk with SVGO and having titles added, and then transferred to the epub/src/images directory.</meta>
-		<meta property="se:word-count">33546</meta>
-		<meta property="se:reading-ease.flesch">52.12</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Flatland</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/edwin-a-abbott_flatland</meta>
+		<meta property="schema:wordCount">33546</meta>
+		<meta property="schema:educationalLevel">52.12</meta>
+		<link href="https://en.wikipedia.org/wiki/Flatland" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/edwin-a-abbott_flatland" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Edwin A. Abbott</dc:creator>
 		<meta property="file-as" refines="#author">Abbott, Edwin A.</meta>
-		<meta property="se:name.person.full-name" refines="#author">Edwin Abbott Abbott</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edwin_A._Abbott</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50034802</meta>
+		<meta property="schema:alternateName" refines="#author">Edwin Abbott Abbott</meta>
+		<link href="https://en.wikipedia.org/wiki/Edwin_A._Abbott" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50034802.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
@@ -66,12 +68,12 @@
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Edward Wadsworth</dc:contributor>
 		<meta property="file-as" refines="#artist">Wadsworth, Edward</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Edward_Wadsworth</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr91006405</meta>
+		<link href="https://en.wikipedia.org/wiki/Edward_Wadsworth" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr91006405.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-1">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -81,7 +83,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
