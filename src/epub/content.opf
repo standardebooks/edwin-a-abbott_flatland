@@ -59,7 +59,7 @@
 		<dc:creator id="author">Edwin A. Abbott</dc:creator>
 		<meta property="file-as" refines="#author">Abbott, Edwin A.</meta>
 		<meta property="schema:alternateName" refines="#author">Edwin Abbott Abbott</meta>
-		<link href="https://en.wikipedia.org/wiki/Edwin_A._Abbott" refines="#author" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Edwin_Abbott_Abbott" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50034802.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
